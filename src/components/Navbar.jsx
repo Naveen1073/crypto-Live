@@ -37,7 +37,7 @@ function Navbar() {
       <nav className={sticky ? "sticky-nav" : ""}>
         <div className="navbar">
           <Link to="/">
-            <p onClick={goTop}>COINDOM</p>
+            <p onClick={goTop}>CRYPTO LIVE</p>
           </Link>
           <ul>
             <li>
@@ -46,12 +46,12 @@ function Navbar() {
             <li>
               <a href="#market">Market</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#choose-us">Choose Us</a>
             </li>
             <li>
               <a href="#join">Join</a>
-            </li>
+            </li> */}
           </ul>
           <span>
             <IconBrandTwitter />
